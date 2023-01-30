@@ -1,0 +1,38 @@
+- Approche architecture MVC (Design pattern)
+
+Model ( Echange avec le controller aussi avec la BDD - REQUEST SQL)
+View ( Affichage et présentations des données - HTML / CSS )
+Controller ( Traitements (class - methodes) - PHP)
+
+AVANTAGES : 
+    - Clarté de l'architecture 
+    - Favorise le travail d'équipe et les mise à jour de l'app. 
+
+INCONVENIENTS : 
+    - Nombre de fichiers ( trops complexe pour des petites applications ).
+    - Le temps accordé a l'architecture peut ne pas être rentable pour le projet. 
+
+DOSSIER MVC :
+    - dossier : assets 
+
+    - dossier : controller 
+            fichiers : Controller.php
+
+    - dossier : model 
+            fichiers : Model.php
+
+    - dossier : template
+        fichiers : layout.php
+
+    - dossier : utils
+            fichiers : autolaud.php
+
+    - dossier : view
+            fichiers : home.php
+
+    - RACINE : 
+            fichiers : index.php
+
+
+
+
