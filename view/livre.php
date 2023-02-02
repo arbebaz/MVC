@@ -1,15 +1,8 @@
-<h1>Page Livre 📚</h1>
+<h1>Page Livre 📔</h1>
 
-<?php print_r($livres); 
-
-
-foreach($livres as $values): ?>
-
-    <tbody>
-      <tr>
-     
-      </tr>
-      
-    </tbody>
-  
-    <?php endforeach; ?>
+<?php foreach ($livre as $value) : ?>
+  <p>
+    <?= $value['auteur']; ?> - <?= $value['titre']; ?>
+    <br>
+  </p>
+<?php endforeach; ?>

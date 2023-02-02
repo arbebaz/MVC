@@ -15,11 +15,11 @@ class LivreController extends Controller
 
     public function index()
     {
-        $livres = $this->getAllLivre();
+        $livre = $this->getAllLivre();
         $this->render(
             'layout.php', 
             'livre.php', [
-            "livres" => $livres
+            "livre" => $livre
         ]);
     }
 

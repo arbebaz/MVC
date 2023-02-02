@@ -14,7 +14,6 @@ class LivreModel
 
     public function read(){
 
-        var_dump($this->db);
         $req = $this->db->pdo()->prepare('SELECT * FROM livre');
         $req->execute(); 
         return $req->fetchAll(\PDO::FETCH_ASSOC);
